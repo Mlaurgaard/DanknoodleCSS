@@ -5,8 +5,7 @@ Flexbox
 .flex-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 .flex-item{
@@ -18,11 +17,13 @@ Flexbox
     display: block;
     background-color: #000;
     color: #0000ff;
-
 }
+
 .flex-item:active{
     background: #ffffff;
 }
+
+
 
 
 /*
@@ -54,7 +55,7 @@ Img Test
     padding: 0 4px;
 }
 
-.column img{
+.column-img{
     margin-top: 8px;
     vertical-align: middle;}
 }
