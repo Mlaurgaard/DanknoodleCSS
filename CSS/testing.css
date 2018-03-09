@@ -1,0 +1,35 @@
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flex-item{
+    padding: 40px;
+    margin: 20px;
+}
+
+.border-flex-item{
+    border: solid 3px #000;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-space{
+    justify-content: space-around;
+}
+
+
+
+
+
+.bg-color-site{
+    background-color: #000;
+}
