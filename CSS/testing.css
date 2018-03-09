@@ -1,3 +1,5 @@
+/*Flexbox*/
+
 .flex-column{
     display: flex;
     flex-direction: column;
@@ -5,8 +7,7 @@
 
 .flex-row{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
 }
 
 .flex-item{
@@ -14,22 +15,27 @@
     margin: 20px;
 }
 
+.flex-item2{
+    padding: 20px;
+    margin: 10px;
+}
+
 .border-flex-item{
     border: solid 3px #000;
 }
 
-.justify-content-center{
-    justify-content: center;
-}
+/*Justify-content*/
 
-.justify-content-space{
-    justify-content: space-around;
-}
+.justify-content-center{justify-content: center;}
 
+.justify-content-space{justify-content: space-around;}
 
+.justify-content-between{justify-content: space-between;}
 
+.justify-content-right{justify-content:flex-end;}
 
+.justify-content-left{justify-content: flex-start;}
 
-.bg-color-site{
-    background-color: #000;
-}
+.justify-content-between{justify-content: space-between}
+
+.justify-content-even{justify-content:space-evenly;}
